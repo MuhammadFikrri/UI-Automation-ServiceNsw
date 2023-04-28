@@ -3,7 +3,7 @@ Study case [Website ServiceNsw](https://www.service.nsw.gov.au/)
 
 Implementation:
 - Web Driver Manager
-- UI testing framework with jUnit 
+- UI testing framework with jUnit, cucumber and selenium
 
 ## Pre-requisites
 1. Download, Install and Configure [JDK](https://www.oracle.com/id/java/technologies/javase/jdk11-archive-downloads.html).
