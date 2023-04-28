@@ -11,5 +11,6 @@ Feature: Search Locations
     And System should displays location results
     And It should use service centre named as "<locations_result>"
     Examples:
-      | suburb_locations | locations_result            |
-      | Sydney 2000      | Marrickville Service Centre |
+      | suburb_locations             | locations_result            |
+      | Sydney 2000                  | Marrickville Service Centre |
+      | Sydney Domestic Airport 2020 | Rockdale Service Centre     |

@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: step_definitions.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 83.634 sec <<< FAILURE!
+And It should use service centre named as "Marrickville Service Centre"(| Sydney 2000 | Marrickville Service Centre |)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Marrickville] Service Centre> but was:<[Wynyard] Service Centre>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at step_definitions.SearchLocationSteps.itShouldUseServiceCentreNamedAs(SearchLocationSteps.java:62)
+	at ?.And It should use service centre named as "Marrickville Service Centre"(features/SearchLocations.feature:12)
+
+| Sydney 2000 | Marrickville Service Centre |  Time elapsed: 0.004 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Marrickville] Service Centre> but was:<[Wynyard] Service Centre>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at step_definitions.SearchLocationSteps.itShouldUseServiceCentreNamedAs(SearchLocationSteps.java:62)
+	at ?.And It should use service centre named as "Marrickville Service Centre"(features/SearchLocations.feature:12)
+
+And It should use service centre named as "Rockdale Service Centre"(| Sydney Domestic Airport 2020 | Rockdale Service Centre |)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Rockdale] Service Centre> but was:<[Wynyard] Service Centre>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at step_definitions.SearchLocationSteps.itShouldUseServiceCentreNamedAs(SearchLocationSteps.java:62)
+	at ?.And It should use service centre named as "Rockdale Service Centre"(features/SearchLocations.feature:12)
+
+| Sydney Domestic Airport 2020 | Rockdale Service Centre |  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Rockdale] Service Centre> but was:<[Wynyard] Service Centre>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at step_definitions.SearchLocationSteps.itShouldUseServiceCentreNamedAs(SearchLocationSteps.java:62)
+	at ?.And It should use service centre named as "Rockdale Service Centre"(features/SearchLocations.feature:12)
+

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="26" failures="4" name="step_definitions.RunCukesTest" time="1.346" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin"/>
+    <property name="java.vm.version" value="25.351-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\FikriData\Fikri Data Penting\Altera\live coding\web auto\UI-ServiceNSW\UI-Automation-ServiceNsw"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\FikriData\Fikri Data Penting\Altera\live coding\web auto\UI-ServiceNSW\UI-Automation-ServiceNsw"/>
+    <property name="java.runtime.version" value="1.8.0_351-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\muham\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\DevSetup\apache-maven-3.8.7\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_351\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\FikriData\XAMPP\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_351\bin;%M2_HOME%\bin;C:\Users\muham\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\muham\AppData\Local\Programs\Python\Python310\;C:\Users\muham\AppData\Local\Microsoft\WindowsApps;C:\Users\muham\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\muham\.dotnet\tools;C:\Users\muham\AppData\Local\GitHubDesktop\bin;C:\Users\muham\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\DevSetup\apache-maven-3.8.7\bin;;."/>
+    <property name="maven.conf" value="C:\DevSetup\apache-maven-3.8.7/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\DevSetup\apache-maven-3.8.7\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\muham"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="muham"/>
+    <property name="java.class.path" value="C:\DevSetup\apache-maven-3.8.7\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_351\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_351"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_351\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="C:\DevSetup\apache-maven-3.8.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| Sydney 2000 | Marrickville Service Centre |" name="Given User already open website Service NSW" time="0.002"/>
+  <testcase classname="| Sydney 2000 | Marrickville Service Centre |" name="When User click button Find Location" time="0"/>
+  <testcase classname="| Sydney 2000 | Marrickville Service Centre |" name="Then System should displays Find Location page" time="0"/>
+  <testcase classname="| Sydney 2000 | Marrickville Service Centre |" name="And User input &quot;Sydney 2000&quot; in text search" time="0"/>
+  <testcase classname="| Sydney 2000 | Marrickville Service Centre |" name="And User click search location button" time="0"/>
+  <testcase classname="| Sydney 2000 | Marrickville Service Centre |" name="And System should displays location results" time="0"/>
+  <testcase classname="| Sydney 2000 | Marrickville Service Centre |" name="And It should use service centre named as &quot;Marrickville Service Centre&quot;" time="0.003">
+    <failure message="expected:&lt;[Marrickville] Service Centre&gt; but was:&lt;[Wynyard] Service Centre&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Marrickville] Service Centre&gt; but was:&lt;[Wynyard] Service Centre&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at step_definitions.SearchLocationSteps.itShouldUseServiceCentreNamedAs(SearchLocationSteps.java:62)
+	at ✽.And It should use service centre named as &quot;Marrickville Service Centre&quot;(features/SearchLocations.feature:12)
+</failure>
+  </testcase>
+  <testcase classname="| Sydney 2000 | Marrickville Service Centre |" name="| Sydney 2000 | Marrickville Service Centre |" time="0.004">
+    <failure message="expected:&lt;[Marrickville] Service Centre&gt; but was:&lt;[Wynyard] Service Centre&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Marrickville] Service Centre&gt; but was:&lt;[Wynyard] Service Centre&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at step_definitions.SearchLocationSteps.itShouldUseServiceCentreNamedAs(SearchLocationSteps.java:62)
+	at ✽.And It should use service centre named as &quot;Marrickville Service Centre&quot;(features/SearchLocations.feature:12)
+</failure>
+  </testcase>
+  <testcase classname="| Sydney Domestic Airport 2020 | Rockdale Service Centre |" name="Given User already open website Service NSW" time="0"/>
+  <testcase classname="| Sydney Domestic Airport 2020 | Rockdale Service Centre |" name="When User click button Find Location" time="0"/>
+  <testcase classname="| Sydney Domestic Airport 2020 | Rockdale Service Centre |" name="Then System should displays Find Location page" time="0"/>
+  <testcase classname="| Sydney Domestic Airport 2020 | Rockdale Service Centre |" name="And User input &quot;Sydney Domestic Airport 2020&quot; in text search" time="0"/>
+  <testcase classname="| Sydney Domestic Airport 2020 | Rockdale Service Centre |" name="And User click search location button" time="0"/>
+  <testcase classname="| Sydney Domestic Airport 2020 | Rockdale Service Centre |" name="And System should displays location results" time="0"/>
+  <testcase classname="| Sydney Domestic Airport 2020 | Rockdale Service Centre |" name="And It should use service centre named as &quot;Rockdale Service Centre&quot;" time="0.001">
+    <failure message="expected:&lt;[Rockdale] Service Centre&gt; but was:&lt;[Wynyard] Service Centre&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Rockdale] Service Centre&gt; but was:&lt;[Wynyard] Service Centre&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at step_definitions.SearchLocationSteps.itShouldUseServiceCentreNamedAs(SearchLocationSteps.java:62)
+	at ✽.And It should use service centre named as &quot;Rockdale Service Centre&quot;(features/SearchLocations.feature:12)
+</failure>
+  </testcase>
+  <testcase classname="| Sydney Domestic Airport 2020 | Rockdale Service Centre |" name="| Sydney Domestic Airport 2020 | Rockdale Service Centre |" time="0.001">
+    <failure message="expected:&lt;[Rockdale] Service Centre&gt; but was:&lt;[Wynyard] Service Centre&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Rockdale] Service Centre&gt; but was:&lt;[Wynyard] Service Centre&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at step_definitions.SearchLocationSteps.itShouldUseServiceCentreNamedAs(SearchLocationSteps.java:62)
+	at ✽.And It should use service centre named as &quot;Rockdale Service Centre&quot;(features/SearchLocations.feature:12)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Normal search in large search bar" name="Given User already open website Service NSW" time="0"/>
+  <testcase classname="Scenario: Normal search in large search bar" name="When User input &quot;Apply for a number plate&quot; in large search bar" time="0"/>
+  <testcase classname="Scenario: Normal search in large search bar" name="And User click primary search button" time="0"/>
+  <testcase classname="Scenario: Normal search in large search bar" name="Then System should displays search results" time="0"/>
+  <testcase classname="Scenario: Normal search in large search bar" name="Scenario: Normal search in large search bar" time="0.662"/>
+  <testcase classname="Scenario: Normal search in top search bar" name="Given User already open website Service NSW" time="0"/>
+  <testcase classname="Scenario: Normal search in top search bar" name="When User input &quot;Apply for a number plate&quot; in top search bar" time="0"/>
+  <testcase classname="Scenario: Normal search in top search bar" name="And User click top search button" time="0"/>
+  <testcase classname="Scenario: Normal search in top search bar" name="Then System should displays search results" time="0"/>
+  <testcase classname="Scenario: Normal search in top search bar" name="Scenario: Normal search in top search bar" time="0.673"/>
+</testsuite>
