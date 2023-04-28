@@ -19,4 +19,4 @@ Implementation:
 3. Running the project using command `mvn clean test`
   
 ## Result
-Result of web automation testing [here](https://MuhammadFikrri.github.io/UI-Automation-ServiceNsw/target/site/cucumber-pretty/index.html).
+Result of web automation testing [here](https://muhammadfikrri.github.io/UI-Automation-ServiceNsw/target/site/cucumber-pretty/index.html).
